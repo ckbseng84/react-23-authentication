@@ -2,6 +2,7 @@ import { Await, redirect, useRouteLoaderData } from "react-router"
 import EventItem from "../components/EventItem";
 import EventsList from "../components/EventsList";
 import { Suspense } from "react";
+import { getAuthToken } from "../util/auth";
 
 export default function EventDetailPage(){
     //obtain the loader data from parent route with name provide
@@ -57,11 +58,15 @@ export async function loader({request, params}){
 
 export async function action({params, request}){
     const id = params.id
+    const token = getAuthToken();
     const response = await fetch('http://localhost:8080/events/' + id, {
-        method: request.method
+        method: request.method,
+        headers : {
+            'authorization' : `bearer ${token}`
+        }
     });
     if (!response.ok){
-        throw new response({message: 'could  not delete event'},{
+        throw new response({message: 'could not delete event'},{
             status: 500
         })
     }
