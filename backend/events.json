@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"KLIMS 2024","image":"https://event-strategy.brown.edu/sites/default/files/styles/ultrawide_med/public/2022-08/20211016_COMM_waterfire064.jpg?h=9d5257cb&itok=6_aC2DQS","date":"2025-10-04","description":"Kuala Lumpur International Motor Show 2025","id":"45ec37ad-8238-4fb2-8c34-4298d6c32fb5"},{"title":"Chrismax Event","image":"https://i0.wp.com/files.happygokl.com/wp-content/uploads/2019/12/CHRISTMAS-EVENTS-IN-KL.jpg","date":"2025-12-24","description":"Christmas event in KL","id":"3f2824cc-bb65-4dca-9230-f1e9e916daef"},{"title":"Normal Event","image":"https://4.imimg.com/data4/RW/PX/MY-29855425/event-management.jpg","date":"4431-03-22","description":"normal event","id":"69c73087-329f-4e5f-86a3-b9f116b5d5fd"},{"title":"Wedding Event","image":"https://4.imimg.com/data4/RW/PX/MY-29855425/event-management.jpg","date":"2025-02-14","description":"wedding event","id":"3f0420a7-a88c-46d0-a56a-16604100396b"},{"title":"Fireworks Fiesta","image":"https://www.sunwaybigbox.com/static/events/98652564368547ef59f0613e96664361/w768.jpeg","date":"2024-12-31","description":"New year countdown 2024","id":"262f0f99-7072-4ee3-af1c-b672cf706e17"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
