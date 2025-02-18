@@ -1,5 +1,5 @@
 
-import { useLoaderData, Await } from 'react-router-dom';
+import { useLoaderData, Await } from 'react-router';
 import EventsList from '../components/EventsList';
 import { Suspense } from 'react';
 
